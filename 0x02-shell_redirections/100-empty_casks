@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -aR | find ./ -type d,f -empty | cut -d "/" -f3
+ls -aR | find ./ -type d,f -empty | cut -d "/" -f1
